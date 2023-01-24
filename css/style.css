@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url('https://c8.alamy.com/comp/EMD5HM/calculator-a-background-EMD5HM.jpg');
+    background-size: cover;
+}
+
+.button{
+    padding: 20px;  
+    margin: 0px 3px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.topButton{
+    padding: 18px;
+}
+
+.row{
+    margin: 8px 0px;
+}
+
+.row input{
+    font-size: 18px;
+    margin: 0;
+    padding: 6px 4px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
