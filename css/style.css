@@ -1,22 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 
 html,body{
-    height: 100%;
-    width: 100%;
     font-family: 'Roboto', sans-serif;
 }
 
 body{
-    background: url('https://c8.alamy.com/comp/EMD5HM/calculator-a-background-EMD5HM.jpg');
+    background: url(/img/bg2.webp);
+    background-repeat: no-repeat;
     background-size: cover;
+    overflow: hidden;
+}
+
+h1{
+    color:white;
+}
+
+.container{
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    display: flex;
+    background-color: #000000;
 }
 
 .button{
     padding: 20px;  
     margin: 0px 3px;
     border: 2px solid black;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
+    font-size: 25px;
+}
+
+#button0{
+    width: 130px;
 }
 
 .topButton{
@@ -31,6 +48,24 @@ body{
     font-size: 18px;
     margin: 0;
     padding: 6px 4px;
+    background-color: #000000;
     border: 2px solid black;
     border-radius: 5px;
+    color: white;
+    text-align: right;
+}
+
+.OpertatorKeys{
+    background-color: orange;
+    color: white;
+}
+
+.functionKeys{
+    background-color: #a2a2a2;
+    color: black;
+}
+
+.numKeys{
+    background-color: #313131;
+    color: white;
 }

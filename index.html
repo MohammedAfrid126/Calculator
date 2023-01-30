@@ -9,40 +9,41 @@
     <link rel="stylesheet" href="css/utils.css">
 </head>
 <body>
-    <h1 class="text-center">Calculate Me😎</h1>
-    <div class="container flex flex-col items-center">
-        <div class="row">
-            <input type="text" class="text-center">
-        </div>
-        <div class="row">
-            <button class="button topButton">C</button>
-            <button class="button topButton">%</button>
-            <button class="button topButton">R</button>
-            <button class="button topButton">M</button>
-        </div>
-        <div class="row">
-            <button class="button">7</button>
-            <button class="button">8</button>
-            <button class="button">9</button>
-            <button class="button">*</button>
-        </div>
-        <div class="row">
-            <button class="button">4</button>
-            <button class="button">5</button>
-            <button class="button">6</button>
-            <button class="button">/</button>
-        </div>
-        <div class="row">
-            <button class="button">1</button>
-            <button class="button">2</button>
-            <button class="button">3</button>
-            <button class="button">-</button>
-        </div>
-        <div class="row">
-            <button class="button">0</button>
-            <button class="button">.</button>
-            <button class="button">=</button>
-            <button class="button">+</button>
+    <div class="flex items-center">
+        <div class="container flex flex-col items-center">
+            <h1 class="text-center">Calculate Me😎</h1>
+            <div class="row">
+                <input type="text" placeholder="0">
+            </div>
+            <div class="row">
+                <button class="button topButton functionKeys">C</button>
+                <button class="button topButton functionKeys">%</button>
+                <button class="button topButton functionKeys">M</button>
+                <button class="button topButton OpertatorKeys">/</button>
+            </div>
+            <div class="row">
+                <button class="button numKeys">7</button>
+                <button class="button numKeys">8</button>
+                <button class="button numKeys">9</button>
+                <button class="button OpertatorKeys">*</button>
+            </div>
+            <div class="row">
+                <button class="button numKeys">4</button>
+                <button class="button numKeys">5</button>
+                <button class="button numKeys">6</button>
+                <button class="button OpertatorKeys">-</button>
+            </div>
+            <div class="row">
+                <button class="button numKeys">1</button>
+                <button class="button numKeys">2</button>
+                <button class="button numKeys">3</button>
+                <button class="button OpertatorKeys">+</button>
+            </div>
+            <div class="row">
+                <button class="button numKeys" id="button0">0</button>
+                <button class="button numKeys">.</button>
+                <button class="button OpertatorKeys">=</button>
+            </div>
         </div>
     </div>
     <script src="js/index.js"></script>
