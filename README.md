@@ -12,7 +12,7 @@ The argument of the eval() function is a string.
 
 ## Try out
 
-https://github.com/MohammedAfrid126/Calculator
+https://mohammedafrid126.github.io/Calculator/
 
 ## Tech Stack
 HTML, CSS and JS.
