@@ -7,7 +7,6 @@ html,body{
 body{
     background: url(../img/bg2.webp);
     background-repeat: no-repeat;
-    background-size: cover;
     overflow: hidden;
 }
 
